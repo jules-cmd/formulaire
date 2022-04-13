@@ -2,6 +2,13 @@ html{
     font-size: 62.5%;
     overflow: hidden;
 }
+
+h1,h2,h3,h4,ul,ol,p,figure,blockquote{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 100;
+}
 body{
     font: 1.6rem sans-serif;
     margin: 0;
@@ -18,12 +25,11 @@ h1,h2,h3,h4,ul,ol,p,figure,blockquote{
 header{
     text-align: center;
 }
-fieldset{
-    position: relative;
-    text-align: center;
-    margin-top: 3rem;
-    margin-left: 19rem;
-    margin-right: 19rem;
+
+main{
+    max-width: 70rem;
+    margin: 5rem auto 0;
+    padding: 2rem;
 }
 footer{
     text-align: center;
